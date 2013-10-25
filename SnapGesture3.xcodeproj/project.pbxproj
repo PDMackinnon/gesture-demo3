@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80FB1A71181A7C3A00651ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FB1A70181A7C3A00651ECF /* Foundation.framework */; };
+		80FB1A73181A7C3A00651ECF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FB1A72181A7C3A00651ECF /* CoreGraphics.framework */; };
+		80FB1A75181A7C3A00651ECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FB1A74181A7C3A00651ECF /* UIKit.framework */; };
+		80FB1A7B181A7C3A00651ECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80FB1A79181A7C3A00651ECF /* InfoPlist.strings */; };
+		80FB1A7D181A7C3A00651ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB1A7C181A7C3A00651ECF /* main.m */; };
+		80FB1A81181A7C3A00651ECF /* PMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB1A80181A7C3A00651ECF /* PMAppDelegate.m */; };
+		80FB1A84181A7C3A00651ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FB1A82181A7C3A00651ECF /* Main.storyboard */; };
+		80FB1A87181A7C3A00651ECF /* PMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB1A86181A7C3A00651ECF /* PMViewController.m */; };
+		80FB1A89181A7C3A00651ECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FB1A88181A7C3A00651ECF /* Images.xcassets */; };
+		80FB1A90181A7C3A00651ECF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FB1A8F181A7C3A00651ECF /* XCTest.framework */; };
+		80FB1A91181A7C3A00651ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FB1A70181A7C3A00651ECF /* Foundation.framework */; };
+		80FB1A92181A7C3A00651ECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FB1A74181A7C3A00651ECF /* UIKit.framework */; };
+		80FB1A9A181A7C3A00651ECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80FB1A98181A7C3A00651ECF /* InfoPlist.strings */; };
+		80FB1A9C181A7C3A00651ECF /* SnapGesture3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB1A9B181A7C3A00651ECF /* SnapGesture3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80FB1A93181A7C3A00651ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FB1A65181A7C3900651ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FB1A6C181A7C3900651ECF;
+			remoteInfo = SnapGesture3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80FB1A6D181A7C3A00651ECF /* SnapGesture3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapGesture3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FB1A70181A7C3A00651ECF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80FB1A72181A7C3A00651ECF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80FB1A74181A7C3A00651ECF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80FB1A78181A7C3A00651ECF /* SnapGesture3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapGesture3-Info.plist"; sourceTree = "<group>"; };
+		80FB1A7A181A7C3A00651ECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80FB1A7C181A7C3A00651ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80FB1A7E181A7C3A00651ECF /* SnapGesture3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapGesture3-Prefix.pch"; sourceTree = "<group>"; };
+		80FB1A7F181A7C3A00651ECF /* PMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMAppDelegate.h; sourceTree = "<group>"; };
+		80FB1A80181A7C3A00651ECF /* PMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMAppDelegate.m; sourceTree = "<group>"; };
+		80FB1A83181A7C3A00651ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80FB1A85181A7C3A00651ECF /* PMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMViewController.h; sourceTree = "<group>"; };
+		80FB1A86181A7C3A00651ECF /* PMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMViewController.m; sourceTree = "<group>"; };
+		80FB1A88181A7C3A00651ECF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80FB1A8E181A7C3A00651ECF /* SnapGesture3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapGesture3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FB1A8F181A7C3A00651ECF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		80FB1A97181A7C3A00651ECF /* SnapGesture3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapGesture3Tests-Info.plist"; sourceTree = "<group>"; };
+		80FB1A99181A7C3A00651ECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80FB1A9B181A7C3A00651ECF /* SnapGesture3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapGesture3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FB1A6A181A7C3900651ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FB1A73181A7C3A00651ECF /* CoreGraphics.framework in Frameworks */,
+				80FB1A75181A7C3A00651ECF /* UIKit.framework in Frameworks */,
+				80FB1A71181A7C3A00651ECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FB1A8B181A7C3A00651ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FB1A90181A7C3A00651ECF /* XCTest.framework in Frameworks */,
+				80FB1A92181A7C3A00651ECF /* UIKit.framework in Frameworks */,
+				80FB1A91181A7C3A00651ECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80FB1A64181A7C3900651ECF = {
+			isa = PBXGroup;
+			children = (
+				80FB1A76181A7C3A00651ECF /* SnapGesture3 */,
+				80FB1A95181A7C3A00651ECF /* SnapGesture3Tests */,
+				80FB1A6F181A7C3A00651ECF /* Frameworks */,
+				80FB1A6E181A7C3A00651ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FB1A6E181A7C3A00651ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FB1A6D181A7C3A00651ECF /* SnapGesture3.app */,
+				80FB1A8E181A7C3A00651ECF /* SnapGesture3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FB1A6F181A7C3A00651ECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80FB1A70181A7C3A00651ECF /* Foundation.framework */,
+				80FB1A72181A7C3A00651ECF /* CoreGraphics.framework */,
+				80FB1A74181A7C3A00651ECF /* UIKit.framework */,
+				80FB1A8F181A7C3A00651ECF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80FB1A76181A7C3A00651ECF /* SnapGesture3 */ = {
+			isa = PBXGroup;
+			children = (
+				80FB1A7F181A7C3A00651ECF /* PMAppDelegate.h */,
+				80FB1A80181A7C3A00651ECF /* PMAppDelegate.m */,
+				80FB1A82181A7C3A00651ECF /* Main.storyboard */,
+				80FB1A85181A7C3A00651ECF /* PMViewController.h */,
+				80FB1A86181A7C3A00651ECF /* PMViewController.m */,
+				80FB1A88181A7C3A00651ECF /* Images.xcassets */,
+				80FB1A77181A7C3A00651ECF /* Supporting Files */,
+			);
+			path = SnapGesture3;
+			sourceTree = "<group>";
+		};
+		80FB1A77181A7C3A00651ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FB1A78181A7C3A00651ECF /* SnapGesture3-Info.plist */,
+				80FB1A79181A7C3A00651ECF /* InfoPlist.strings */,
+				80FB1A7C181A7C3A00651ECF /* main.m */,
+				80FB1A7E181A7C3A00651ECF /* SnapGesture3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80FB1A95181A7C3A00651ECF /* SnapGesture3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80FB1A9B181A7C3A00651ECF /* SnapGesture3Tests.m */,
+				80FB1A96181A7C3A00651ECF /* Supporting Files */,
+			);
+			path = SnapGesture3Tests;
+			sourceTree = "<group>";
+		};
+		80FB1A96181A7C3A00651ECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FB1A97181A7C3A00651ECF /* SnapGesture3Tests-Info.plist */,
+				80FB1A98181A7C3A00651ECF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FB1A6C181A7C3900651ECF /* SnapGesture3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FB1A9F181A7C3A00651ECF /* Build configuration list for PBXNativeTarget "SnapGesture3" */;
+			buildPhases = (
+				80FB1A69181A7C3900651ECF /* Sources */,
+				80FB1A6A181A7C3900651ECF /* Frameworks */,
+				80FB1A6B181A7C3900651ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapGesture3;
+			productName = SnapGesture3;
+			productReference = 80FB1A6D181A7C3A00651ECF /* SnapGesture3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80FB1A8D181A7C3A00651ECF /* SnapGesture3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FB1AA2181A7C3A00651ECF /* Build configuration list for PBXNativeTarget "SnapGesture3Tests" */;
+			buildPhases = (
+				80FB1A8A181A7C3A00651ECF /* Sources */,
+				80FB1A8B181A7C3A00651ECF /* Frameworks */,
+				80FB1A8C181A7C3A00651ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FB1A94181A7C3A00651ECF /* PBXTargetDependency */,
+			);
+			name = SnapGesture3Tests;
+			productName = SnapGesture3Tests;
+			productReference = 80FB1A8E181A7C3A00651ECF /* SnapGesture3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FB1A65181A7C3900651ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Paul Mackinnon";
+				TargetAttributes = {
+					80FB1A8D181A7C3A00651ECF = {
+						TestTargetID = 80FB1A6C181A7C3900651ECF;
+					};
+				};
+			};
+			buildConfigurationList = 80FB1A68181A7C3900651ECF /* Build configuration list for PBXProject "SnapGesture3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80FB1A64181A7C3900651ECF;
+			productRefGroup = 80FB1A6E181A7C3A00651ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FB1A6C181A7C3900651ECF /* SnapGesture3 */,
+				80FB1A8D181A7C3A00651ECF /* SnapGesture3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FB1A6B181A7C3900651ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FB1A89181A7C3A00651ECF /* Images.xcassets in Resources */,
+				80FB1A7B181A7C3A00651ECF /* InfoPlist.strings in Resources */,
+				80FB1A84181A7C3A00651ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FB1A8C181A7C3A00651ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FB1A9A181A7C3A00651ECF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FB1A69181A7C3900651ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FB1A7D181A7C3A00651ECF /* main.m in Sources */,
+				80FB1A87181A7C3A00651ECF /* PMViewController.m in Sources */,
+				80FB1A81181A7C3A00651ECF /* PMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FB1A8A181A7C3A00651ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FB1A9C181A7C3A00651ECF /* SnapGesture3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80FB1A94181A7C3A00651ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FB1A6C181A7C3900651ECF /* SnapGesture3 */;
+			targetProxy = 80FB1A93181A7C3A00651ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80FB1A79181A7C3A00651ECF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FB1A7A181A7C3A00651ECF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80FB1A82181A7C3A00651ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FB1A83181A7C3A00651ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80FB1A98181A7C3A00651ECF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FB1A99181A7C3A00651ECF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FB1A9D181A7C3A00651ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80FB1A9E181A7C3A00651ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FB1AA0181A7C3A00651ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapGesture3/SnapGesture3-Prefix.pch";
+				INFOPLIST_FILE = "SnapGesture3/SnapGesture3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80FB1AA1181A7C3A00651ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapGesture3/SnapGesture3-Prefix.pch";
+				INFOPLIST_FILE = "SnapGesture3/SnapGesture3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		80FB1AA3181A7C3A00651ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnapGesture3.app/SnapGesture3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapGesture3/SnapGesture3-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnapGesture3Tests/SnapGesture3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		80FB1AA4181A7C3A00651ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnapGesture3.app/SnapGesture3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapGesture3/SnapGesture3-Prefix.pch";
+				INFOPLIST_FILE = "SnapGesture3Tests/SnapGesture3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FB1A68181A7C3900651ECF /* Build configuration list for PBXProject "SnapGesture3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FB1A9D181A7C3A00651ECF /* Debug */,
+				80FB1A9E181A7C3A00651ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FB1A9F181A7C3A00651ECF /* Build configuration list for PBXNativeTarget "SnapGesture3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FB1AA0181A7C3A00651ECF /* Debug */,
+				80FB1AA1181A7C3A00651ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80FB1AA2181A7C3A00651ECF /* Build configuration list for PBXNativeTarget "SnapGesture3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FB1AA3181A7C3A00651ECF /* Debug */,
+				80FB1AA4181A7C3A00651ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80FB1A65181A7C3900651ECF /* Project object */;
+}
