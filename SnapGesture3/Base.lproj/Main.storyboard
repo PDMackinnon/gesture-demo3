@@ -26,6 +26,7 @@
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="uB2-uk-efh" appends="YES" id="X67-56-zBa"/>
                             <outletCollection property="gestureRecognizers" destination="qWd-O2-QWm" appends="YES" id="k8U-dx-K9E"/>
+                            <outletCollection property="gestureRecognizers" destination="H1Q-0I-OYd" appends="YES" id="F9G-1U-fUd"/>
                         </connections>
                     </view>
                     <connections>
@@ -45,6 +46,11 @@
                         <outlet property="delegate" destination="vXZ-lx-hvc" id="BHy-ne-Gft"/>
                     </connections>
                 </swipeGestureRecognizer>
+                <rotationGestureRecognizer id="H1Q-0I-OYd">
+                    <connections>
+                        <action selector="rotateGesture:" destination="vXZ-lx-hvc" id="NaE-e3-Hlm"/>
+                    </connections>
+                </rotationGestureRecognizer>
             </objects>
         </scene>
     </scenes>

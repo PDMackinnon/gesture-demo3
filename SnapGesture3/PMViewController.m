@@ -73,6 +73,26 @@
 }
 
 
+- (IBAction)rotateGesture:(UIRotationGestureRecognizer *)sender {
+    
+    
+    if ([sender state] == UIGestureRecognizerStateBegan || [sender state] == UIGestureRecognizerStateChanged) {
+        
+        if ([sender rotation] > 0.523) { // == 30 degrees
+            NSString *jsreturn = [self.mainWebView stringByEvaluatingJavaScriptFromString:@"rotateRight();"];
+
+        }
+        if ([sender rotation] < -0.523) { // == -30 degrees
+            NSString *jsreturn = [self.mainWebView stringByEvaluatingJavaScriptFromString:@"rotateLeft();"];
+            
+        }
+        
+        NSLog(@"rotation = %f",[sender rotation]);
+        
+    }
+    
+    
+}
 
 
 - (void)didReceiveMemoryWarning
