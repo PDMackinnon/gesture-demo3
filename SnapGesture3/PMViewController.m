@@ -80,11 +80,13 @@
         
         if ([sender rotation] > 0.523) { // == 30 degrees
             NSString *jsreturn = [self.mainWebView stringByEvaluatingJavaScriptFromString:@"rotateRight();"];
+            [sender setRotation:0];
+
 
         }
         if ([sender rotation] < -0.523) { // == -30 degrees
             NSString *jsreturn = [self.mainWebView stringByEvaluatingJavaScriptFromString:@"rotateLeft();"];
-            
+            [sender setRotation:0];
         }
         
         NSLog(@"rotation = %f",[sender rotation]);
