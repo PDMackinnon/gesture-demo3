@@ -32,6 +32,9 @@
 	
 	[_mainWebView loadHTMLString:fileText baseURL:base];
     
+    self.snapRadValue = [self.theSlider value];
+    
+    
     
     /*
     //stop scroll  !
@@ -78,13 +81,13 @@
     
     if ([sender state] == UIGestureRecognizerStateBegan || [sender state] == UIGestureRecognizerStateChanged) {
         
-        if ([sender rotation] > 0.523) { // == 30 degrees
+        if ([sender rotation] > self.snapRadValue) { // == 30 degrees default
             NSString *jsreturn = [self.mainWebView stringByEvaluatingJavaScriptFromString:@"rotateRight();"];
             [sender setRotation:0];
 
 
         }
-        if ([sender rotation] < -0.523) { // == -30 degrees
+        if ([sender rotation] < -self.snapRadValue) { // == -30 degrees default
             NSString *jsreturn = [self.mainWebView stringByEvaluatingJavaScriptFromString:@"rotateLeft();"];
             [sender setRotation:0];
         }
@@ -96,6 +99,19 @@
     
 }
 
+- (IBAction)applySliderValue:(UISlider *)sender {
+    
+    NSLog(@"slider = %f",[sender value]);
+    
+  //  NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+   // [numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    
+    
+    [self.snapRadians setText:[NSString stringWithFormat:@"%g", sender.value]];
+    
+    self.snapRadValue = [self.theSlider value];
+    
+}
 
 - (void)didReceiveMemoryWarning
 {

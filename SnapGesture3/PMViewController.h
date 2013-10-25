@@ -10,5 +10,10 @@
 
 @interface PMViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIWebView *mainWebView;
+@property (weak, nonatomic) IBOutlet UILabel *snapRadians;
+@property float snapRadValue;
+
+@property (weak, nonatomic) IBOutlet UISlider *theSlider;
+
 
 @end

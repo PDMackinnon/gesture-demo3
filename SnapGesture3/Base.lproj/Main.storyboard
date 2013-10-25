@@ -17,12 +17,26 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e4h-3N-Kd0">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="414"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.52300000000000002" minValue="0.10000000000000001" maxValue="3.1400000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="ONq-bd-tec">
+                                <rect key="frame" x="18" y="515" width="284" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="applySliderValue:" destination="vXZ-lx-hvc" eventType="valueChanged" id="FfC-3I-9Ds"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWt-tz-XPi">
+                                <rect key="frame" x="20" y="486" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="uB2-uk-efh" appends="YES" id="X67-56-zBa"/>
                             <outletCollection property="gestureRecognizers" destination="qWd-O2-QWm" appends="YES" id="k8U-dx-K9E"/>
@@ -31,6 +45,8 @@
                     </view>
                     <connections>
                         <outlet property="mainWebView" destination="e4h-3N-Kd0" id="41E-J3-xPn"/>
+                        <outlet property="snapRadians" destination="dWt-tz-XPi" id="axd-sv-AHb"/>
+                        <outlet property="theSlider" destination="ONq-bd-tec" id="2wt-OS-gC7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
