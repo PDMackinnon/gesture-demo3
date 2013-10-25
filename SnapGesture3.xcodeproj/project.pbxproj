@@ -21,6 +21,7 @@
 		80FB1A92181A7C3A00651ECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FB1A74181A7C3A00651ECF /* UIKit.framework */; };
 		80FB1A9A181A7C3A00651ECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80FB1A98181A7C3A00651ECF /* InfoPlist.strings */; };
 		80FB1A9C181A7C3A00651ECF /* SnapGesture3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB1A9B181A7C3A00651ECF /* SnapGesture3Tests.m */; };
+		80FB1AA6181A7D8000651ECF /* web in Resources */ = {isa = PBXBuildFile; fileRef = 80FB1AA5181A7D8000651ECF /* web */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		80FB1A97181A7C3A00651ECF /* SnapGesture3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapGesture3Tests-Info.plist"; sourceTree = "<group>"; };
 		80FB1A99181A7C3A00651ECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80FB1A9B181A7C3A00651ECF /* SnapGesture3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapGesture3Tests.m; sourceTree = "<group>"; };
+		80FB1AA5181A7D8000651ECF /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		80FB1A76181A7C3A00651ECF /* SnapGesture3 */ = {
 			isa = PBXGroup;
 			children = (
+				80FB1AA5181A7D8000651ECF /* web */,
 				80FB1A7F181A7C3A00651ECF /* PMAppDelegate.h */,
 				80FB1A80181A7C3A00651ECF /* PMAppDelegate.m */,
 				80FB1A82181A7C3A00651ECF /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80FB1A89181A7C3A00651ECF /* Images.xcassets in Resources */,
+				80FB1AA6181A7D8000651ECF /* web in Resources */,
 				80FB1A7B181A7C3A00651ECF /* InfoPlist.strings in Resources */,
 				80FB1A84181A7C3A00651ECF /* Main.storyboard in Resources */,
 			);
