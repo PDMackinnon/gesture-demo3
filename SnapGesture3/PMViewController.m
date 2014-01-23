@@ -103,10 +103,6 @@
     
     NSLog(@"slider = %f",[sender value]);
     
-  //  NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
-   // [numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
-    
-    
     [self.snapRadians setText:[NSString stringWithFormat:@"%g", sender.value]];
     
     self.snapRadValue = [self.theSlider value];
